@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Form Daftar</title>
+    <link href="dist/css/sidang_seminar.css" rel="stylesheet" />
+</head>
+<body style="height: 2000px;">
+    <!-- navbar dan judul -->
+    <div class="container-fluid ">
+    <div class="row text-center mt-3 mb-5">
+        <div class="col-12">
+        <h1>Sistem Informasi Seminar Tugas Akhir - SISTA</h1>
+        </div>
+    </div>
+    <div class="row   ">
+        <div class="col-12">
+        <nav style="--bs-breadcrumb-divider: '|'" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="landing_sista.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="landing_sista.html">Jadwal</a></li>
+            <li class="breadcrumb-item">Daftar Seminar</li>
+            <li class="breadcrumb-item"><a href="landing_sista.html">Berita</a></li>
+            <li class="breadcrumb-item"><a href="landing_sista.html">About</a></li>
+            </ol>
+        </nav>
+        </div>
+    </div>
+    <div class="row mt-0  ">
+        <div class="col">
+        <p>Pendaftaran Seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari pembimbing TA</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+        <p>Form Daftar Seminar TA</p>
+        </div>
+    </div>
+
+    <div class="row border p-4">
+        <div class="col-4">
+        
+        <form>
+            <div class="form-group row mb-3">
+            <label for="nim" class="col-4 col-form-label">NIM :</label> 
+            <div class="col-8">
+                <input id="nim" name="nim"  type="text" class="form-control">
+            </div>
+            </div>
+            <div class="form-group row mb-3">
+            <label for="nama" class="col-4 col-form-label">Nama :</label> 
+            <div class="col-8">
+                <input id="nama" name="nama"   type="text" class="form-control">
+            </div>
+            </div>
+            <div class="form-group row mb-3">
+            <label for="select" class="col-4 col-form-label">Prodi :</label> 
+            <div class="col-8">
+                <select class="form-select form-select-lg mb-1">
+                    <option value="Tekhnik Informatika">Teknik Informatika</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                </select>
+            </div>
+            </div>
+            <div class="form-group row mb-3">
+            <label for="text" class="col-4 col-form-label">Tanggal Seminar :</label> 
+            <div class="col-8">
+                <input id="text" name="text" type="text" class="form-control">
+            </div>
+            </div>
+            <div class="form-group row mb-3">
+            <label for="text1" class="col-4 col-form-label">Jam Seminar :</label> 
+            <div class="col-8">
+                <input id="text1" name="text1" type="text" class="form-control">
+            </div>
+            </div>
+            <div class="form-group row mb-3">
+            <label for="text2" class="col-4 col-form-label">Ruangan :</label> 
+            <div class="col-8">
+                <input id="text2" name="text2" type="text" class="form-control">
+            </div>
+            </div> 
+            <div class="form-group row mb-3">
+            <div class="offset-4 col-8">
+                <button name="submit" type="submit" class="btn btn-secondary" ><a style="color: black;" href="kelola_seminar.html">Daftar</a></button>
+            </div>
+            </div>
+        </form>
+
+        </div>
+        <div class="col-6 offset-1">
+        <fieldset>  
+            <div class="form-group row mb-1">
+            <label for="textarea" class="col-4 col-form-label">Judul TA :</label> 
+            <div class="col-8">
+                <textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
+            </div>
+            </div>
+            <div class="form-group row mb-1">
+            <label for="select" class="col-4 col-form-label">Seminar :</label> 
+            <div class="col-8">
+                <select  class="form-select form-select-lg mb-1">
+                <option value="rabbit">Proposal</option>
+                <option value="duck">Seminar Hasil</option>
+                </select>
+            </div>
+            </div>
+            <div class="form-group row mb-1">
+            <label for="select1" class="col-4 col-form-label">Pembimbing :</label> 
+            <div class="col-8">
+                <select class="form-select form-select-lg mb-1">
+                <option value="rabbit">Sirojul Munir S.SI, M.KOM</option>
+                <option value="duck">Ahmad Rio M.SI</option>
+                <option value="fish">Amaliah Rahmah M.T</option>
+                </select>
+            </div>
+            </div>
+            <div class="form-group row mb-1">
+            <label for="select2" class="col-4 col-form-label">Penguji 1 :</label> 
+            <div class="col-8">
+                <select class="form-select form-select-lg mb-1">
+                <option value="rabbit">Ahmad Rio M.SI</option>
+                <option value="duck">Sirojul Munir S.SI, M.KOM</option>
+                <option value="fish">Amaliah Rahmah M.T</option>
+                </select>
+            </div>
+            </div>
+            <div class="form-group row mb-1">
+            <label for="select3" class="col-4 col-form-label">Penguji  2 :</label> 
+            <div class="col-8">
+                <select class="form-select form-select-lg mb-1">
+                <option value="rabbit">Amaliah Rahmah M.T</option>
+                <option value="duck">Sirojul Munir S.SI, M.KOM</option>
+                <option value="fish">Amaliah Rahmah M.T</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <style>
+        *{
+            font-family: cursive;
+        }
+        .s{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <title>Daftar Peseta Seminar</title>
+</head>
+<body>
+    <h1 class="text-center mt-5">Sistem Informasi Tugas Akhir | <b>SISTA</b></h1>
+    <div>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol style="margin-right: 60px;" class="breadcrumb nav justify-content-end mt-4">
+                <li class="breadcrumb-item"><a href="landing_sista.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="landing_sista.html">Jadwal</a></li>
+                <li class="breadcrumb-item"><a href="detailjadwal.html">Detail Jadwal</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Daftra Peserta</li>
+            </ol>
+        </nav>
+        <br>
+        <div style="font-size: large;" class="ms-6">
+            <div>
+                Mahasiswa Seminar : Diego Armando (0102002)
+            </div>
+            <div>
+                Judul  : Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework
+            </div>
+            <div>
+                Waktu  : Senin, 4 Januari 2021, 10:00
+            </div>
+        </div>
+        <br>
+    </div>
+    <fieldset>
+        <legend>Form Peserta Seminar</legend>
+        <ul>
+            <form action="/action_page.php">
+                <label for="NIM">NIM:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="Name">Name :</label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                Prodi :
+                <select>
+                    <option value="">Teknik Informatika</option>
+                    <option value="">Sistem Informasi</option>
+                </select><br><br>
+                <label for="">Program :</label>
+                <input type="radio" id="D3" value="">D3
+                <input type="radio" id="S1reguler">S1 Reguler
+                <input type="radio" id="S1 fasttrack">S1 Fast Track
+                <input type="radio" id="S2">S2
+                <br><br>
+                <button type="submit">
+                    <a class="s" href="data_peserta_seminar.html">Daftar</a>
+                </button>
+            </form> 
+        </li>
+        </ul>
+    </fieldset>
+</body>
+</html>
